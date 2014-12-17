@@ -16,7 +16,8 @@
 	},
 	"scripts": {
 		"test": "nodeunit --reporter=minimal test/tests.js",
-		"updatedb": "node scripts/updatedb.js"
+		"updatedb": "node scripts/updatedb.js",
+		"install": "node scripts/updatedb.js"
 	},
 	"dependencies": {
 		"async": "~0.1.22",
